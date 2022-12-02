@@ -1,0 +1,64 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  height: 100vh;
+  
+  font-family: 'Inter', sans-serif;
+  color: white;
+  background-color: #282D35;
+}
+
+nav, .nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  padding: 0 26px;
+  justify-content: space-between;
+
+  background-color: #21222A;
+}
+
+.nav-logo {
+  color: #61DAFB;
+}
+
+.nav-logo > h3 {
+  letter-spacing: -0.05em;
+  
+}
+
+nav > h4 {
+  font-weight: 600;
+  color: #DEEBF8;
+}
+
+.logo-icon {
+  width: 29px;
+}
+
+main {
+  padding: 27px;
+  background-image: url("./images/react-icon2.png");
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+main > h1 {
+  margin: 30px 0;
+  letter-spacing: -0.05em;
+}
+
+ul > li {
+  margin-bottom: 1.25em;
+  max-width: 390px;
+}
+
+ul > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
